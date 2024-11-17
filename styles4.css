@@ -1,6 +1,6 @@
 body {
     margin: 0; /* Elimina el margen predeterminado alrededor del cuerpo del documento */
-    font-family: 'Roboto', sans-serif; /* Establece la fuente para todo el texto en la página */
+    font-family: 'calibre', sans-serif; /* Aplica una fuente personalizada para el texto */
     line-height: 1.6; /* Define la altura de línea para el texto, mejorando la legibilidad */
     background-color: #f5f7fa; /* Establece un color de fondo suave para la página */
     color: #333; /* Define un color de texto general que es más suave que el negro puro */
