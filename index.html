@@ -1,18 +1,16 @@
 <!DOCTYPE html>
-<html lang="es">                                                         <!-- Declara el tipo de documento como HTML5 y establece el idioma a español. -->
+<html lang="es">
 <head>
-    <meta charset="UTF-8">                                                <!-- Especifica la codificación de caracteres como UTF-8 para soportar caracteres especiales. -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configura la visualización para adaptarse a diferentes tamaños de pantalla, esencial para el diseño responsivo. -->
-    <title>CAMIONES_ONLINE</title>                                            <!-- Título de la página que aparecerá en la pestaña del navegador. -->
-    <link rel="stylesheet" href="styles.css">                             <!-- Vincula una hoja de estilo CSS externa para el diseño y la apariencia de la página. -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrienda tu vehículo</title>
+    <link rel="stylesheet" href="styles4.css">
 </head>
 
-<body> 
-    <!-- Información del encabezado -->
+<body>
     <header>
         <div class="logo-titulo">
-            <img id="icono1" src="imagenes/12.jpg" alt="Soluciones"> <!-- Logo de la empresa -->
-            <h1 id="superior">MUNDOCAMIONES</h1> <!-- Nombre de la empresa -->
+            <h1 id="superior">LINGsCARS</h1>
         </div>
         <nav class="navbar">
             <ul class="menu">
@@ -32,87 +30,361 @@
     </header>
 
     
-    <!-- Carrusel de imágenes o slider -->
-    <div class="slider">
-        <!-- Botones de radio para el control manual del slider -->
-        <input type="radio" name="radio-btn" id="radio1" checked> <!-- Botón de radio para la primera imagen, marcado por defecto. -->
-        <input type="radio" name="radio-btn" id="radio2"> <!-- Botón de radio para la segunda imagen. -->
-        <input type="radio" name="radio-btn" id="radio3"> <!-- Botón de radio para la tercera imagen. -->
-
-        <div class="slides"> <!-- Contenedor de las diapositivas del slider. -->
-            <!-- Primera diapositiva del slider -->
-            <div class="slide first"> 
-                <img src="./Imagenes/11.png" alt="Noticia 1"> <!-- Imagen para la primera diapositiva. -->
-                <div class="caption"> <!-- Contenedor de texto que acompaña la imagen. -->
-                    <h2>Tecnologia e Innovación</h2>
-                    <p>Los mejores en Tecnología y un paso más adelante en Innovación.</p>
-                </div>
-            </div>
-            <!-- Segunda diapositiva del slider -->
-            <div class="slide">
-                <img src="./Imagenes/101.jpg" alt="Noticia 2"> <!-- Imagen para la segunda diapositiva. -->
-                <div class="caption">
-                    <h2>Confianza y Seguridad</h2>
-                    <p>Maneja, confía, disfruta, vive la carretera con la seguridad de nuestros camiones.</p>
-                </div>
-            </div>
-            <!-- Tercera diapositiva del slider -->
-            <div class="slide">
-                <img src="./Imagenes/102.jpg" alt="Noticia 3"> <!-- Imagen para la tercera diapositiva. -->
-                <div class="caption">
-                    <h2>Disponibilidad y Compromiso</h2>
-                    <p>El mejor servicio al cliente, sin importar la hora, el día, el año estaremos listo para atenderte. </p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Navegación automática del slider (indicadores visuales) -->
-        <div class="navigation-auto">
-            <div class="auto-btn1"></div> <!-- Botón automático para la primera imagen. -->
-            <div class="auto-btn2"></div> <!-- Botón automático para la segunda imagen. -->
-            <div class="auto-btn3"></div> <!-- Botón automático para la tercera imagen. -->
-        </div>
-
-        <!-- Navegación manual del slider (botones de control) -->
-        <div class="navigation-manual">
-            <label for="radio1" class="manual-btn"></label> <!-- Botón manual para la primera imagen. -->
-            <label for="radio2" class="manual-btn"></label> <!-- Botón manual para la segunda imagen. -->
-            <label for="radio3" class="manual-btn"></label> <!-- Botón manual para la tercera imagen. -->
-        </div>
-    </div>
-    
-    <!-- Sección principal de contenido -->
     <main>
-        <section class="texto-imagen"> <!-- Sección que contiene texto e imágenes. -->
-            <div class="texto"> <!-- Contenedor para el texto explicativo. -->
-                <h2>Bellezas de la carretera</h2> <!-- Encabezado de bienvenida. -->
-                <p>
-                    En MUNDOCAMIONES podrás encontrar una amplia gama de vehículos pesados, que te ayudaran
-                    con el transporte de tu mercancía sin importar las condiciones de la carretera, los camiones 
-                    de MUNDOCAMIONES te llevaran a tu destino en un abrir y cerrar de ojos.
-                    Danos la oportunidad de asesorarte para que consigas el vehículo de tus sueños, en lo que
-                    encontraras la seguridad que nuestros camiones te pueden ofrecer y muchas otras características
-                    únicas que poseen nuestros vehículos. 
-                </p>
-                <br>
-                <h2>Ventajas</h2>
-                <ol> <!-- Lista ordenada que enumera las ventajas ofrecidas por la empresa. -->
-                    <li>Camión automatico.</li>
-                    <li>Ultima tecnologia.</li>
-                    <li>Diseño moderno.</li>
-                    <li>Precios accesibles.</li>
-                </ol>
+        <h1 class="titulo">Elije la Marca del Vehiculo que quieres arrendar</h1>
+
+        <div class="cards-container">
+    
+            <div class="card">
+                <img src="Imagenes/1000.png" alt="Desarrollo de Sistemas Integrados">
+                <h2>ABARTH</h2>
+                <p>Desarrollamos soluciones integradas que conectan plataformas empresariales y optimizan flujos de trabajo.</p>
+                <button onclick="location.href='abarth.html'">Leer más</button>
             </div>
-            <div class="image-container"> <!-- Contenedor para la imagen que acompaña al texto. -->
-                <img src="imagenes/103.jpg" alt="Soluciones"> <!-- Imagen representativa de los servicios de la empresa. -->
+    
+            <div class="card">
+                <img src="Imagenes/1001.jpg" alt="Automatización de Procesos">
+                <h2>ALFA ROMEO</h2>
+                <p>Automatizamos procesos repetitivos, lo que reduce errores y mejora la eficiencia operativa.</p>
+                <button>Leer más</button>
             </div>
-            <br><br>
- 
-        </section>
+    
+            <div class="card">
+                <img src="Imagenes/1002.png" alt="Desarrollo de APIs">
+                <h2>AUDI</h2>
+                <p>Diseñamos y desarrollamos APIs robustas que permiten una integración fluida entre tus servicios y aplicaciones.</p>
+                <button>Leer más</button>
+            </div>
+    
+            <div class="card">
+                <img src="Imagenes/1003.png" alt="Soporte Técnico 24/7">
+                <h2>BMW</h2>
+                <p>Proporcionamos soporte técnico continuo para garantizar que tu sistema esté siempre en funcionamiento.</p>
+                <button>Leer más</button>
+            </div>
+    
+        </div>
+    
+        <br>
+        <br>
+    
+        <div class="cards-container">
+    
+            <div class="card">
+                <img src="Imagenes/1004.png" alt="Consultoría en Transformación Digital">
+                <h2>BYD</h2>
+                <p>Asesoramos a empresas en la implementación de tecnologías digitales para mejorar sus procesos de negocio.</p>
+                <button>Leer más</button>
+            </div>
+    
+            <div class="card">
+                <img src="Imagenes/1005.png" alt="Optimización de Bases de Datos">
+                <h2>CITROEN </h2>
+                <p>Optimizamos la velocidad y capacidad de tus bases de datos para un mejor rendimiento en grandes volúmenes de información.</p>
+                <button>Leer más</button>
+            </div>
+    
+            <div class="card">
+                <img src="Imagenes/1006.png" alt="Ciberseguridad Empresarial">
+                <h2>CUPRA</h2>
+                <p>Implementamos soluciones de ciberseguridad para proteger tus datos y operaciones de amenazas externas.</p>
+                <button>Leer más</button>
+            </div>
+    
+            <div class="card">
+                <img src="Imagenes/1007.jpg" alt="Desarrollo de Aplicaciones Móviles">
+                <h2>DACIA</h2>
+                <p>Creamos aplicaciones móviles personalizadas para iOS y Android con un enfoque en experiencia de usuario.</p>
+                <button>Leer más</button>
+            </div>
+    
+        </div>
+
+        
+        <br>
+        <br>
+    
+        <div class="cards-container">
+    
+            <div class="card">
+                <img src="Imagenes/1008.png" alt="Consultoría en Transformación Digital">
+                <h2>DS</h2>
+                <p>Asesoramos a empresas en la implementación de tecnologías digitales para mejorar sus procesos de negocio.</p>
+                <button>Leer más</button>
+            </div>
+    
+            <div class="card">
+                <img src="Imagenes/1009.png" alt="Optimización de Bases de Datos">
+                <h2>FIAT</h2>
+                <p>Optimizamos la velocidad y capacidad de tus bases de datos para un mejor rendimiento en grandes volúmenes de información.</p>
+                <button>Leer más</button>
+            </div>
+    
+            <div class="card">
+                <img src="Imagenes/1010.png" alt="Ciberseguridad Empresarial">
+                <h2>FORD</h2>
+                <p>Implementamos soluciones de ciberseguridad para proteger tus datos y operaciones de amenazas externas.</p>
+                <button>Leer más</button>
+            </div>
+    
+            <div class="card">
+                <img src="Imagenes/1011.png" alt="Desarrollo de Aplicaciones Móviles">
+                <h2>GENESIS</h2>
+                <p>Creamos aplicaciones móviles personalizadas para iOS y Android con un enfoque en experiencia de usuario.</p>
+                <button>Leer más</button>
+            </div>
+    
+        </div>
+
+        
+        <br>
+        <br>
+    
+        <div class="cards-container">
+    
+            <div class="card">
+                <img src="Imagenes/1012.png" alt="Consultoría en Transformación Digital">
+                <h2>HONDA</h2>
+                <p>Asesoramos a empresas en la implementación de tecnologías digitales para mejorar sus procesos de negocio.</p>
+                <button>Leer más</button>
+            </div>
+    
+            <div class="card">
+                <img src="Imagenes/1013.png" alt="Optimización de Bases de Datos">
+                <h2>HYUNDAI</h2>
+                <p>Optimizamos la velocidad y capacidad de tus bases de datos para un mejor rendimiento en grandes volúmenes de información.</p>
+                <button>Leer más</button>
+            </div>
+    
+            <div class="card">
+                <img src="Imagenes/1014.jpg" alt="Ciberseguridad Empresarial">
+                <h2>ISUZU</h2>
+                <p>Implementamos soluciones de ciberseguridad para proteger tus datos y operaciones de amenazas externas.</p>
+                <button>Leer más</button>
+            </div>
+    
+            <div class="card">
+                <img src="Imagenes/1015.png" alt="Desarrollo de Aplicaciones Móviles">
+                <h2>IVECO</h2>
+                <p>Creamos aplicaciones móviles personalizadas para iOS y Android con un enfoque en experiencia de usuario.</p>
+                <button>Leer más</button>
+            </div>
+    
+        </div>
+
+        
+        <br>
+        <br>
+    
+        <div class="cards-container">
+    
+            <div class="card">
+                <img src="Imagenes/1016.jpg" alt="Consultoría en Transformación Digital">
+                <h2>JAGUAR</h2>
+                <p>Asesoramos a empresas en la implementación de tecnologías digitales para mejorar sus procesos de negocio.</p>
+                <button>Leer más</button>
+            </div>
+    
+            <div class="card">
+                <img src="Imagenes/1017.jpg" alt="Optimización de Bases de Datos">
+                <h2>JEEP</h2>
+                <p>Optimizamos la velocidad y capacidad de tus bases de datos para un mejor rendimiento en grandes volúmenes de información.</p>
+                <button>Leer más</button>
+            </div>
+    
+            <div class="card">
+                <img src="Imagenes/1018.png" alt="Ciberseguridad Empresarial">
+                <h2>KIA</h2>
+                <p>Implementamos soluciones de ciberseguridad para proteger tus datos y operaciones de amenazas externas.</p>
+                <button>Leer más</button>
+            </div>
+    
+            <div class="card">
+                <img src="Imagenes/1019.jpg" alt="Desarrollo de Aplicaciones Móviles">
+                <h2>LAND ROVER</h2>
+                <p>Creamos aplicaciones móviles personalizadas para iOS y Android con un enfoque en experiencia de usuario.</p>
+                <button>Leer más</button>
+            </div>
+    
+        </div>
+
+        
+        <br>
+        <br>
+    
+        <div class="cards-container">
+    
+            <div class="card">
+                <img src="Imagenes/1020.jpg" alt="Consultoría en Transformación Digital">
+                <h2>LEXUS</h2>
+                <p>Asesoramos a empresas en la implementación de tecnologías digitales para mejorar sus procesos de negocio.</p>
+                <button>Leer más</button>
+            </div>
+    
+            <div class="card">
+                <img src="Imagenes/1021.jpg" alt="Optimización de Bases de Datos">
+                <h2>MAXUS</h2>
+                <p>Optimizamos la velocidad y capacidad de tus bases de datos para un mejor rendimiento en grandes volúmenes de información.</p>
+                <button>Leer más</button>
+            </div>
+    
+            <div class="card">
+                <img src="Imagenes/1022.jpg" alt="Ciberseguridad Empresarial">
+                <h2>MAZDA</h2>
+                <p>Implementamos soluciones de ciberseguridad para proteger tus datos y operaciones de amenazas externas.</p>
+                <button>Leer más</button>
+            </div>
+    
+            <div class="card">
+                <img src="Imagenes/1023.jpg" alt="Desarrollo de Aplicaciones Móviles">
+                <h2>MERCEDES-BENZ</h2>
+                <p>Creamos aplicaciones móviles personalizadas para iOS y Android con un enfoque en experiencia de usuario.</p>
+                <button>Leer más</button>
+            </div>
+    
+        </div>
+
+        
+        <br>
+        <br>
+    
+        <div class="cards-container">
+    
+            <div class="card">
+                <img src="Imagenes/1024.png" alt="Consultoría en Transformación Digital">
+                <h2>MG</h2>
+                <p>Asesoramos a empresas en la implementación de tecnologías digitales para mejorar sus procesos de negocio.</p>
+                <button>Leer más</button>
+            </div>
+    
+            <div class="card">
+                <img src="Imagenes/1025.png" alt="Optimización de Bases de Datos">
+                <h2>MINI</h2>
+                <p>Optimizamos la velocidad y capacidad de tus bases de datos para un mejor rendimiento en grandes volúmenes de información.</p>
+                <button>Leer más</button>
+            </div>
+    
+            <div class="card">
+                <img src="Imagenes/1026.jpg" alt="Ciberseguridad Empresarial">
+                <h2>NISSAN</h2>
+                <p>Implementamos soluciones de ciberseguridad para proteger tus datos y operaciones de amenazas externas.</p>
+                <button>Leer más</button>
+            </div>
+    
+            <div class="card">
+                <img src="Imagenes/1027.png" alt="Desarrollo de Aplicaciones Móviles">
+                <h2>PEUGEOT</h2>
+                <p>Creamos aplicaciones móviles personalizadas para iOS y Android con un enfoque en experiencia de usuario.</p>
+                <button>Leer más</button>
+            </div>
+    
+        </div>
+
+        
+        <br>
+        <br>
+    
+        <div class="cards-container">
+    
+            <div class="card">
+                <img src="Imagenes/1028.png" alt="Consultoría en Transformación Digital">
+                <h2>POLESTAR</h2>
+                <p>Asesoramos a empresas en la implementación de tecnologías digitales para mejorar sus procesos de negocio.</p>
+                <button>Leer más</button>
+            </div>
+    
+            <div class="card">
+                <img src="Imagenes/1029.png" alt="Optimización de Bases de Datos">
+                <h2>RENAULT</h2>
+                <p>Optimizamos la velocidad y capacidad de tus bases de datos para un mejor rendimiento en grandes volúmenes de información.</p>
+                <button>Leer más</button>
+            </div>
+    
+            <div class="card">
+                <img src="Imagenes/1030.png" alt="Ciberseguridad Empresarial">
+                <h2>SEAT</h2>
+                <p>Implementamos soluciones de ciberseguridad para proteger tus datos y operaciones de amenazas externas.</p>
+                <button>Leer más</button>
+            </div>
+    
+            <div class="card">
+                <img src="Imagenes/1031.jpg" alt="Desarrollo de Aplicaciones Móviles">
+                <h2>SKODA</h2>
+                <p>Creamos aplicaciones móviles personalizadas para iOS y Android con un enfoque en experiencia de usuario.</p>
+                <button>Leer más</button>
+            </div>
+    
+        </div>
+
+        
+        <br>
+        <br>
+    
+        <div class="cards-container">
+    
+            <div class="card">
+                <img src="Imagenes/1032.jpg" alt="Consultoría en Transformación Digital">
+                <h2>SUBARU</h2>
+                <p>Asesoramos a empresas en la implementación de tecnologías digitales para mejorar sus procesos de negocio.</p>
+                <button>Leer más</button>
+            </div>
+    
+            <div class="card">
+                <img src="Imagenes/1033.png" alt="Optimización de Bases de Datos">
+                <h2>SUZUKI</h2>
+                <p>Optimizamos la velocidad y capacidad de tus bases de datos para un mejor rendimiento en grandes volúmenes de información.</p>
+                <button>Leer más</button>
+            </div>
+    
+            <div class="card">
+                <img src="Imagenes/1034.png" alt="Ciberseguridad Empresarial">
+                <h2>TESLA</h2>
+                <p>Implementamos soluciones de ciberseguridad para proteger tus datos y operaciones de amenazas externas.</p>
+                <button>Leer más</button>
+            </div>
+    
+            <div class="card">
+                <img src="Imagenes/1035.png" alt="Desarrollo de Aplicaciones Móviles">
+                <h2>TOYOTA</h2>
+                <p>Creamos aplicaciones móviles personalizadas para iOS y Android con un enfoque en experiencia de usuario.</p>
+                <button>Leer más</button>
+            </div>
+    
+        </div>
+
+        
+        <br>
+        <br>
+    
+        <div class="cards-container">
+    
+            <div class="card">
+                <img src="Imagenes/1036.png" alt="Consultoría en Transformación Digital">
+                <h2>VAUXHALL</h2>
+                <p>Asesoramos a empresas en la implementación de tecnologías digitales para mejorar sus procesos de negocio.</p>
+                <button>Leer más</button>
+            </div>
+    
+            <div class="card">
+                <img src="Imagenes/1037.png" alt="Optimización de Bases de Datos">
+                <h2>VOLVO</h2>
+                <p>Optimizamos la velocidad y capacidad de tus bases de datos para un mejor rendimiento en grandes volúmenes de información.</p>
+                <button>Leer más</button>
+            </div>
+    
+            <div class="card">
+                <img src="Imagenes/1038.jpg" alt="Ciberseguridad Empresarial">
+                <h2>VOLKSWAGEN</h2>
+                <p>Implementamos soluciones de ciberseguridad para proteger tus datos y operaciones de amenazas externas.</p>
+                <button>Leer más</button>
+            </div>
+    
+    
+        </div>
     </main>
-    <!-- Pie de página -->
+
     <footer>
-        <p>© 2024 MUNDOCAMIONES - Todos los derechos reservados.</p> <!-- Información de derechos reservados en el pie de página. -->
+        <p>© 2024 LINGsCARS - Todos los derechos reservados.</p>
     </footer>
 </body>
 </html>
