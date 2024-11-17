@@ -1,3 +1,10 @@
+
+    body {
+        background: #c31432;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+
 body {
     margin: 0; /* Elimina el margen predeterminado alrededor del cuerpo del documento */
     font-family: 'Roboto', sans-serif; /* Establece la fuente para todo el texto en la página */
@@ -7,7 +14,7 @@ body {
 }
 
 /* Estilos para el encabezado */
-header {
+header { 
     background-color: rgb(32, 93, 203); /* Aplica un color de fondo azul al encabezado */
     color: white; /* Establece el color del texto en blanco dentro del encabezado */
     padding: 15px 20px; /* Añade espacio interno (padding) alrededor del contenido del encabezado */
