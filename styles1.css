@@ -216,14 +216,3 @@ background-color: #084590;
     margin-left: 10px; /* Añade un margen izquierdo al submenú para diferenciarlo del elemento principal */
 }
 }
-
-.cuadro {
-    background-color: rgba(105, 51, 28, 0.315); /* Fondo blanco con un poco de transparencia */
-    padding: 15px; /* Espacio interno alrededor del texto */
-    border-radius: 8px; /* Bordes redondeados */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra alrededor del cuadro */
-    font-size: 1.3em; /* Tamaño de fuente */
-    max-width: 1000px; /* Ancho máximo del cuadro */
-    margin: 0 auto; /* Centrar el cuadro en la página */
-    text-align: justify; /* Justificar el texto para un mejor acomodo */
-}
