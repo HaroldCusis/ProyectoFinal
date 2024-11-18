@@ -1,4 +1,9 @@
 body {
+    background: #a76570;  
+    background: -webkit-linear-gradient(to right, #240b36, #c31432); 
+    background: linear-gradient(to right, #240b36, #77585d); 
+} 
+body {
     margin: 0; /* Elimina el margen predeterminado alrededor del cuerpo del documento */
     font-family: 'Roboto', sans-serif; /* Establece la fuente para todo el texto en la página */
     line-height: 1.6; /* Define la altura de línea para el texto, mejorando la legibilidad */
@@ -8,7 +13,7 @@ body {
 
 /* Estilos para el encabezado */
 header {
-    background-color: rgb(32, 93, 203); /* Aplica un color de fondo azul al encabezado */
+    background-color: rgba(105, 51, 28, 0.315); /* Aplica un color de fondo azul al encabezado */
     color: white; /* Establece el color del texto en blanco dentro del encabezado */
     padding: 15px 20px; /* Añade espacio interno (padding) alrededor del contenido del encabezado */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Añade una sombra sutil debajo del encabezado para dar un efecto de profundidad */
@@ -60,7 +65,7 @@ header {
 }
 
 .navbar ul li a:hover {
-    background-color: white; /* Cambia el color de fondo cuando el cursor pasa sobre el enlace */
+    background-color: rgba(105, 51, 28, 0.315); /* Cambia el color de fondo cuando el cursor pasa sobre el enlace */
     transform: scale(1.1); /* Agranda ligeramente el enlace cuando se pasa el cursor sobre él */
     border-radius: 4px; /* Redondea ligeramente las esquinas del enlace */
     color: black;
@@ -71,44 +76,40 @@ header {
     border-radius: 4px; /* Redondea ligeramente las esquinas del enlace activo */
 }
 .dropbtn {
-    background-color:  rgb(32, 93, 203);
+    background-color:  rgba(105, 51, 28, 0.315);
     color: white;
     padding: 16px;
     font-size: 16px;
     border: none;
-   
-  }
-  
-  .dropup {
+    }
+.dropup {
     position: relative;
     display: inline-block;
     z-index: 2;
-  }
-  
-  .dropup-content {
+    }
+
+.dropup-content {
     display: none;
     position: absolute;
-    background-color:  rgb(32, 93, 203);
+    background-color:  rgba(105, 51, 28, 0.315);
     min-width: 160px;
     
   }
   
-  .dropup-content a {
+.dropup-content a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-  }
-  
-  .dropup-content a:hover {background-color: #ccc}
-  
-  .dropup:hover .dropup-content {
+    }
+
+.dropup-content a:hover {background-color: #ccc}
+.dropup:hover .dropup-content {
     display: block;
-  }
-  
-  .dropup:hover .dropbtn {
-    background-color: #2980B9;
-  }
+    }
+    .dropup:hover .dropbtn {
+    background-color: rgba(241, 159, 124, 0.315);
+}
 
 @media screen and (max-width: 600px) {
     .navbar ul {
@@ -195,8 +196,6 @@ header {
     font-size: 1.2rem;
     max-width: 80%;
 }
-
-
 
 .titulo {
     text-align: center;
@@ -308,7 +307,7 @@ button:hover {
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #333;
+    background-color: #837c7c;
     color: white;
     margin-top: 40px;
 }

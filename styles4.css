@@ -95,7 +95,7 @@ header {
 .dropup-content {
     display: none;
     position: absolute;
-    background-color: rgb(32, 93, 203);
+    background-color: rgba(105, 51, 28, 0.315);
     min-width: 160px;
 }
 
@@ -115,7 +115,7 @@ header {
 }
 
 .dropup:hover .dropbtn {
-    background-color: #2980B9;
+    background-color: rgba(105, 51, 28, 0.315);
 }
 
 /* Estilos para la sección principal */

@@ -1,15 +1,19 @@
 
 /* Estilo general del cuerpo */
+.container {
+    background: #a76570;  
+    background: -webkit-linear-gradient(to right, #240b36, #c31432); 
+    background: linear-gradient(to right, #240b36, #77585d); 
+}
 body {
     font-family: Arial, sans-serif; /* Tipo de fuente */
     margin: 0; /* Sin márgenes */
     padding: 0; /* Sin relleno */
-    background-color: white; /* Fondo blanco */
 }
 
 /* Estilo del encabezado */
 header {
-    background-color: rgb(32, 93, 203); /* Color de fondo azul */
+    background-color: rgba(105, 51, 65, 0.918); /* Color de fondo azul */
     color: white; /* Color del texto */
     padding: 15px 20px; /* Relleno del encabezado */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra del encabezado */
@@ -80,7 +84,7 @@ header {
 
 /* Estilo del botón desplegable */
 .dropbtn {
-    background-color: rgb(32, 93, 203); /* Color de fondo del botón */
+    background-color: rgba(105, 51, 65, 0.918); /* Color de fondo del botón */
     color: white; /* Color del texto */
     padding: 16px; /* Relleno del botón */
     font-size: 16px; /* Tamaño de fuente del botón */
@@ -98,7 +102,7 @@ header {
 .dropup-content {
     display: none; /* Oculto por defecto */
     position: absolute; /* Posición absoluta */
-    background-color: rgb(32, 93, 203); /* Color de fondo del menú */
+    background-color: rgba(105, 51, 65, 0.918); /* Color de fondo del menú */
     min-width: 160px; /* Ancho mínimo del menú */
 }
 
@@ -122,7 +126,7 @@ header {
 
 /* Estilo del botón al pasar el ratón */
 .dropup:hover .dropbtn {
-    background-color: #2980B9; /* Cambiar color de fondo del botón al pasar el ratón */
+    background-color: rgba(121, 61, 81, 0.918); /* Cambiar color de fondo del botón al pasar el ratón */
 }
 
 /* Estilo del contenedor principal */
@@ -201,7 +205,7 @@ input[type="radio"] {
     height: 15px; /* Altura del indicador */
     margin: 0 5px; /* Margen lateral */
     border-radius: 50%; /* Bordes redondeados */
-    background-color: #00aaff; /* Color de fondo del indicador */
+    background-color: #858788; /* Color de fondo del indicador */
     cursor: pointer; /* Cursor de puntero al pasar el ratón */
 }
 
@@ -212,9 +216,9 @@ input[type="radio"]:checked + label {
 
 /* Estilo del texto de visión y misión */
 .vision-text, .mission-text {
-    width: 45%; /* Ancho de las secciones de visión y misión */
+    width: 35%; /* Ancho de las secciones de visión y misión */
     padding: 6%; /* Relleno */
-    background-color: #f9f9f9; /* Fondo gris claro */
+    background-color: rgba(194, 171, 197, 0.918); /* Fondo gris claro */
     box-shadow: 0 4px 10px rgba(12, 178, 229, 0.1); /* Sombra */
     border-radius: 10px; /* Bordes redondeados */
 }
@@ -224,7 +228,7 @@ input[type="radio"]:checked + label {
     padding-top: 5%; /* Relleno superior */
     text-align: center; /* Alineación central del texto */
     font-size: 3rem; /* Tamaño de fuente grande */
-    color: #00aaff; /* Color azul */
+    color: #e4e8eb; /* Color azul */
 }
 
 /* Estilo de los párrafos en visión y misión */
